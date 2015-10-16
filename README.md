@@ -193,7 +193,7 @@ python post_test.py
 # 웹브라우저에서 확인
 http://127.0.0.1:4242/api/query?start=2015/10/14-00:00:00&end=2015/10/14-08:19:49&m=sum:foo.bar
 
---> 이때 start 시간과 end 시간은 내가 설정한 시간으로 바꿔야한다.
+--> 이때 start 시간(From)과 end 시간(To)은 내가 설정한 시간으로 바꿔야한다.
 
 # 결과
 [{"metric":"foo.bar","tags":{"host":"mypc"},"aggregateTags":[],"dps":{"1444835983":2015.0}}]
@@ -270,7 +270,7 @@ if __name__ == '__main__':
   
 	 =======================
 	 1444977346.21
-	 time.struct_time(tm_year=2015, tm_mon=10, tm_mday=15, tm_hour=23, tm_min=35, tm_sec=46, tm_wday=3, tm_yday=288, 	tm_isdst=1)
+	 time.struct_time(tm_year=2015, tm_mon=10, tm_mday=15, tm_hour=23, tm_min=35, tm_sec=46, tm_wday=3, tm_yday=288, tm_isdst=1)
 	 =======================
   	 2015 10 15 23 35 46
   	 =======================
