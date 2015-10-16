@@ -70,6 +70,9 @@ arch명령어를 통해 비트수 확인 후 설치
 
 ### hbase Install(버전이 바뀔수도 있음)
 ```sh
+
+    *** root권한으로 (# su) ***
+    
     cd /usr/local
     mkdir data
     cd data
@@ -148,6 +151,8 @@ configuration Add to between the tags
 ```sh
 # openTSDB 동작중인 터미널은 닫지 말고..
 # 새로운 터미널을 열고 진행하세요...
+
+*** root권한으로 (# su) ***
 
 sudo yum install python-setuptools python-setuptools-devel
 sudo easy_install pip
